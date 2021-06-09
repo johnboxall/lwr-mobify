@@ -1,8 +1,8 @@
-# Hello Mobify!
+# Hello Managed Runtime!
 
-"Hello World" example of an app that will run on the Mobify runtime.
+"Hello World" example of an app that will run on Managed Runtime..
 
-To deploy, you'll need a Mobify API key: https://cloud.mobify.com/account/
+To deploy, you'll need a Runtime Admin API key: 
 
 From there, create a file `~/.mobify`:
 
@@ -13,7 +13,9 @@ From there, create a file `~/.mobify`:
 }
 ```
 
-Confirm you can access test project: https://beta.mobifyplatform.com/mobify/hello-mobify
+Confirm you can access test project: 
+
+https://runtime.commercecloud.com/salesforce-internal/hello-mobify
 
 After that you can get things running locally:
 
@@ -28,13 +30,13 @@ npm run
 # Run locally, available on localhost:3000
 npm start
 
-# Create the "bundle" the release artifact used by the Mobify Runtime
+# Create a "bundle", the code release  artifact used by Managed Runtime
 npm run bundle
 
-# Upload the built bundle to Mobify Cloud
+# Upload the bundle to Runtime Admin
 npm run upload
 
-# Build, upload and deploy the current code to Mobify Cloud
+# Build, upload and deploy the current code to Managed Runtime
 npm run deploy
 ```
 
